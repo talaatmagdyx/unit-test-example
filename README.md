@@ -12,6 +12,10 @@
     - Writing a test to test raise_for_status(), and mocking raise_for_status
     - Checking status codes within an except clause of the try/except block.
 
+- [x] unittest/mocks [Mocking_Python_Requests_with_Responses](unittest/Mocking_Python_Requests_with_Responses)
+    - Writing a test for a function that should return value if JSON object with a certain structure is provided
+    - Testing the raise_for_status() function with Python Responses library.
+    - Testing a logic when Exception is raised
 ### Why Python mocks are important:
 - Mocks eliminate dependency on network, database calls, calls to OS (it will speed testing)
 - we get isolated unit tests,
